@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kirtana K</title> <!-- Changed to your name -->
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://www.linkedin.com/in/kirtana-kathiravan-670bb6249/" class="link">KK</a> <!-- Changed to your initials and LinkedIn profile -->
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Internship</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Kirtana K.</span></h1> <!-- Changed name -->
+        <h2 class="about__role">BCA Student</h2>
+        <p class="about__desc">
+          I'm a BCA (Bachelor of Computer Applications) student  at Christ University, Bengaluru, with a passion for digital art, exploring new technologies, and developing innovative solutions.
+        </p> <!-- Updated About section -->
+        <br>
+        <a href="mailto:kkirtana07@gmail.com">Mail: kkirtana07@gmail.com </a>
+        <p>Contact: +91 9360008800</p> <!-- Updated email and contact -->
+        </br>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/10z8cbve_gxnv99iythz0wJz7cI3vPfbS/view?usp=sharing" target="_blank">
+            <span class="btn btn--outline">Resume</span> <!-- Replace with your resume link -->
+          </a>
+
+          <a
+            href="https://github.com/kirtanakathir" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a> <!-- Update with your GitHub profile -->
+
+          <a
+            href="www.linkedin.com/in/kirtanakathiravan-670bb6249" target="_blank"
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a> <!-- Update with your LinkedIn profile -->
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>TourBuddy</h3> <!-- Project Title -->
+            <p class="project__description">
+              Created a comprehensive travel website with real-time weather monitoring and itinerary management for Bengaluru.
+            </p> <!-- Project description -->
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">Express.js</li>
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">MySQL</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>PETnest</h3>
+            <p class="project__description">
+              Developed a website for adopting, rescuing, and finding lost pets, volunteering in rescue organizations, and making donations.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">Express.js</li>
+              <li class="project__stack-item">Node.js</li>
+              <li class="project__stack-item">MongoDB</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Internships & Certifications</h2>
+
+        <div class="project">
+          <h3>Titan Company Limited</h3>
+          <p class="project__description">
+            Web Developer Intern: The internship at Titan Company Limited involved developing a help form for dealers using React, Express, Node.js, and MongoDB, enabling them to submit issues and receive admin responses. Additionally, email notifications for dealer queries were implemented to improve communication efficiency.
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+            <li class="project__stack-item">MongoDB</li>
+            <li class="project__stack-item">Node.js</li>
+            <li class="project__stack-item">Express.js</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <p class="project__description">
+            Completed Software Testing Foundations course (DataArt India training school)</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Blender</li>
+          <li class="skills__list-item btn btn--plain">R Software</li>
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a href="" class="link footer__link">
+        Created By Kirtana K <!-- Updated to your name -->
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
